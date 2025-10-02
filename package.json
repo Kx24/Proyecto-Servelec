@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kx24/ProyectosWeb.git"
+    "url": "git+https://github.com/Kx24/Proyectos-Servelec.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kx24/ProyectosWeb/issues"
+    "url": "https://github.com/Kx24/Proyecto-Servelec/issues"
   },
-  "homepage": "https://github.com/Kx24/ProyectosWeb#readme",
+  "homepage": "https://github.com/Kx24/Proyecto-Servelec#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",

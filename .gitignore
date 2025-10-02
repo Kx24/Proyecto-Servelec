@@ -26,9 +26,8 @@ htmlcov/
 .idea/
 *.swp
 
-# 📦 Node.js / Tailwind
+# 📦 Node.js / 
 node_modules/
-package-lock.json
 
 # 🧼 Compilados de Tailwind (si no los versionas)
 Landingpage/static/landing/css/style.css
