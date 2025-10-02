@@ -1,0 +1,37 @@
+# 🔐 Seguridad
+.env
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# 📦 Entorno virtual
+env/
+venv/
+ENV/
+
+# 🧱 Django static files
+staticfiles/
+
+# 🧪 Tests y cobertura
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# 🧰 IDEs y editores
+.vscode/
+.idea/
+*.swp
+
+# 📦 Node.js / Tailwind
+node_modules/
+package-lock.json
+
+# 🧼 Compilados de Tailwind (si no los versionas)
+Landingpage/static/landing/css/style.css
+
+#ejecutables
+tailwindcss.exe

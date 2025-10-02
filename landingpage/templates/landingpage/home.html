@@ -1,0 +1,29 @@
+{% extends "Landingpage/base.html" %}
+{% load static %}
+
+{% block title %}Servelec{% endblock %}
+
+{% block content %}
+  <!-- Hero -->
+  {% include 'Landingpage/components/hero.html' %}
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="p-8">
+    {% include 'Landingpage/nosotros.html' %}
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="p-8">
+    {% include 'Landingpage/servicios.html' %}
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="p-8 bg-gray-100">
+    {% if enviado %}
+    {% include 'landingpage/contact_exitoso.html' %}
+  {% else %}
+    {% include 'landingpage/contact.html' %}
+  {% endif %}
+
+  </section>
+{% endblock %}

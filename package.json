@@ -1,0 +1,28 @@
+{
+  "name": "servelec_ingenieria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx @tailwindcss/cli -i ./Landingpage/static/landing/css/input.css -o ./Landingpage/static/landing/css/style.css --watch --content ./Landingpage/templates/**/*.html",
+    "build": "npx tailwindcss -i ./Landingpage/static/landing/css/input.css -o ./Landingpage/static/landing/css/style.css --content ./Landingpage/templates/**/*.html --minify",
+    "tailwind": "node build-tailwind.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kx24/ProyectosWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kx24/ProyectosWeb/issues"
+  },
+  "homepage": "https://github.com/Kx24/ProyectosWeb#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14"
+  }
+}

@@ -1,0 +1,42 @@
+<div id="contacto" class="py-16 px-6 md:px-16 bg-servelec-neutral rounded-xl shadow-lg max-w-3xl mx-auto">
+  <div class="text-center mb-8">
+    <h2 class="text-4xl font-bold text-servelec-dark mb-2">Contáctanos</h2>
+    <p class="text-servelec-primary max-w-2xl mx-auto font-semibold">Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+  </div>
+
+  <form method="POST" action="{% url 'home' %}" class="space-y-6">
+    {% csrf_token %}
+    {{ form.non_field_errors }}
+
+    <div>
+      {{ form.nombre.label_tag }}
+      {{ form.nombre }}
+      {{ form.nombre.errors }}
+    </div>
+
+    <div>
+      {{ form.correo.label_tag }}
+      {{ form.correo }}
+      {{ form.correo.errors }}
+    </div>
+
+    <div>
+      {{ form.telefono.label_tag }}
+      {{ form.telefono }}
+      {{ form.telefono.errors }}
+    </div>
+
+    <div>
+      {{ form.mensaje.label_tag }}
+      {{ form.mensaje }}
+      {{ form.mensaje.errors }}
+    </div>
+
+    <div class="text-center pt-4">
+      <button type="submit"
+              class="inline-block rounded-lg bg-servelec-dark px-6 py-3 text-servelec-neutral font-semibold hover:bg-servelec-primary transition duration-300">
+        Enviar mensaje
+      </button>
+    </div>
+  </form>
+</div>

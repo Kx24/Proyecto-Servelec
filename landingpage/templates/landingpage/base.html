@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="{% static 'landing/img/favicon.ico' %}" type="image/x-icon" />
+  <title>{% block title %}Mi Landing{% endblock %}</title>
+  <link href="{% static 'landing/css/style.css' %}" rel="stylesheet" />
+  {% block head_extra %}{% endblock %}
+</head>
+<body class="flex flex-col min-h-screen pt-16">
+  <!-- Header -->
+  {% include 'Landingpage/components/header.html' %}
+
+  <!-- Contenido principal -->
+  <main class="flex-grow">  
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  {% include 'Landingpage/components/footer.html' %}
+
+</body>
+</html>
+
