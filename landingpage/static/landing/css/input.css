@@ -1,7 +1,9 @@
 @import "tailwindcss";
+
 @source "./Landingpage/templates/**/*.html";
 @source "./Landingpage/templates/landingpage/components/footer.html";
 @source "./Landingpage/static/landing/js/**/*.js";
+
 
 @theme {
   --servelec-primary: #34a853;
@@ -18,3 +20,4 @@
 @utility text-servelec-* {
   color: --value(--servelec-*);
 }
+
