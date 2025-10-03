@@ -21,8 +21,8 @@
   
   "scripts": {
 
-    "build": "postcss ./Landingpage/static/landing/css/input.css -o ./Landingpage/static/landing/css/style.css",
-    "watch": "postcss ./Landingpage/static/landing/css/input.css -o ./Landingpage/static/landing/css/style.css --watch"
+    "build": "postcss ./landingpage/static/landing/css/input.css -o ./landingpage/static/landing/css/style.css",
+    "watch": "postcss ./landingpage/static/landing/css/input.css -o ./landingpage/static/landing/css/style.css --watch"
   },
 
 

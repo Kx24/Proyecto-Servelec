@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-@source "./Landingpage/templates/**/*.html";
-@source "./Landingpage/templates/landingpage/components/footer.html";
-@source "./Landingpage/static/landing/js/**/*.js";
+@source "./landingpage/templates/**/*.html";
+@source "./landingpage/templates/landingpage/components/footer.html";
+@source "./landingpage/static/landing/js/**/*.js";
 
 
 @theme {
